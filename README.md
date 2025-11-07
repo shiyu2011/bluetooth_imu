@@ -95,3 +95,4 @@ With an MTU of 247 (payload ~244), you can pack up to 8 records per notification
 - INT1 of BMI270 is routed to `IMU_INT_PIN`; set in `board_config.h`.
 - SPI runs at **8 MHz**, mode 3. Pin assignment in `board_config.h`.
 
+# bluetooth_imu
