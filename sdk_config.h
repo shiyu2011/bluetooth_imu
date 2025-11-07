@@ -1,0 +1,46 @@
+
+#ifndef SDK_CONFIG_H
+#define SDK_CONFIG_H
+
+// ======= Minimal SDK config for nrfx (nRF5 SDK 17.1) =======
+
+// Logging
+#define NRF_LOG_ENABLED 1
+#define NRF_LOG_BACKEND_RTT_ENABLED 1
+#define NRF_LOG_BACKEND_UART_ENABLED 0
+#define NRF_LOG_DEFAULT_LEVEL 3
+
+// Power
+#define NRF_PWR_MGMT_ENABLED 1
+
+// GPIOTE
+#define NRFX_GPIOTE_ENABLED 1
+#define NRFX_GPIOTE_CONFIG_NUM_OF_LOW_POWER_EVENTS 1
+
+// TIMER
+#define NRFX_TIMER_ENABLED 1
+#define NRFX_TIMER1_ENABLED 1
+
+// SPIM
+#define NRFX_SPIM_ENABLED 1
+#define NRFX_SPIM0_ENABLED 1
+
+// BLE Stack (SoftDevice)
+#define NRF_SDH_ENABLED 1
+#define NRF_SDH_BLE_ENABLED 1
+#define NRF_SDH_BLE_VS_UUID_COUNT 1
+#define NRF_SDH_BLE_GAP_DATA_LENGTH 251
+#define NRF_SDH_BLE_GATT_MAX_MTU_SIZE 247
+#define NRF_SDH_BLE_PERIPHERAL_LINK_COUNT 1
+#define NRF_SDH_BLE_TOTAL_LINK_COUNT 1
+
+// GATT
+#define NRF_BLE_GATT_ENABLED 1
+
+// App Timer
+#define APP_TIMER_ENABLED 1
+
+// BLE Conn Params
+#define BLE_CONN_PARAMS_ENABLED 1
+
+#endif // SDK_CONFIG_H
